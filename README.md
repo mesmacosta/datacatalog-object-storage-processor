@@ -2,7 +2,7 @@
 
 A package for performing Data Catalog operations on object storage solutions.
 
-[![CircleCI][3]][4] [![CoverageStatus][1]][2]
+[![CircleCI][1]][2] [![PyPi][7]][8] [![License][9]][9] [![Issues][10]][11]
 
 ## 1. Environment setup
 
@@ -92,7 +92,11 @@ datacatalog-object-storage-processor \
 
 This is not an officially supported Google product.
 
-[1]: https://coveralls.io/repos/github/mesmacosta/datacatalog-object-storage-processor/badge.svg?branch=master&kill_cache=3
-[2]: https://coveralls.io/github/mesmacosta/datacatalog-object-storage-processor?branch=master
-[3]: https://circleci.com/gh/mesmacosta/datacatalog-object-storage-processor.svg?style=svg
-[4]: https://circleci.com/gh/mesmacosta/datacatalog-object-storage-processor
+[1]: https://circleci.com/gh/mesmacosta/datacatalog-object-storage-processor.svg?style=svg
+[2]: https://circleci.com/gh/mesmacosta/datacatalog-object-storage-processor
+[3]: https://virtualenv.pypa.io/en/latest/
+[7]: https://img.shields.io/pypi/v/datacatalog-object-storage-processor.svg
+[8]: https://pypi.org/project/datacatalog-object-storage-processor/
+[9]: https://img.shields.io/github/license/mesmacosta/datacatalog-object-storage-processor.svg
+[10]: https://img.shields.io/github/issues/mesmacosta/datacatalog-object-storage-processor.svg
+[11]: https://github.com/mesmacosta/datacatalog-object-storage-processor/issues
