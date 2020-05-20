@@ -166,7 +166,7 @@ class DataCatalogHelper:
                 self.__datacatalog.update_tag(tag=tag_to_update, update_mask=None)
                 logging.info(f'Tag updated: {tag_to_update.name}')
             else:
-                logging.info(f'Tag is up to date')
+                logging.info('Tag is up to date')
 
     def upsert_entry(self, entry_group_name, entry_id, entry):
         persisted_entry = entry
@@ -314,7 +314,7 @@ class DataCatalogHelper:
         logging.info(f'=> Sync Entries took [{elapsed_time} seconds]')
 
     def __load_tag_template(self):
-        logging.info(f'===> Load the Tag Template')
+        logging.info('===> Load the Tag Template')
         logging.info('')
         resolved_tag_template_name = self.get_tag_template_name()
         try:
