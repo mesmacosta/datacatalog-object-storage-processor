@@ -4,6 +4,37 @@ A package for performing Data Catalog operations on object storage solutions.
 
 [![CircleCI][1]][2] [![PyPi][7]][8] [![License][9]][9] [![Issues][10]][11]
 
+<!--
+  ⚠️ DO NOT UPDATE THE TABLE OF CONTENTS MANUALLY ️️⚠️
+  run `npx markdown-toc -i README.md`.
+
+  Please stick to 80-character line wraps as much as you can.
+-->
+
+## Table of Contents
+
+<!-- toc -->
+
+- [1. Environment setup](#1-environment-setup)
+  * [1.1. Get the code](#11-get-the-code)
+  * [1.2. Auth credentials](#12-auth-credentials)
+      - [1.2.1. Create a service account and grant it below roles](#121-create-a-service-account-and-grant-it-below-roles)
+      - [1.2.2. Download a JSON key and save it as](#122-download-a-json-key-and-save-it-as)
+  * [1.3. Virtualenv](#13-virtualenv)
+      - [1.3.1. Install Python 3.6+](#131-install-python-36)
+      - [1.3.2. Create and activate an isolated Python environment](#132-create-and-activate-an-isolated-python-environment)
+      - [1.3.3. Install the dependencies](#133-install-the-dependencies)
+      - [1.3.4. Set environment variables](#134-set-environment-variables)
+  * [1.4. Docker](#14-docker)
+- [2. Create DataCatalog entries based on object storage files](#2-create-datacatalog-entries-based-on-object-storage-files)
+  * [2.1. python main.py](#21-python-mainpy)
+- [3 Delete up object storage entries on entry group](#3-delete-up-object-storage-entries-on-entry-group)
+- [Disclaimers](#disclaimers)
+
+<!-- tocstop -->
+
+-----
+
 ## 1. Environment setup
 
 ### 1.1. Get the code
