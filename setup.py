@@ -8,7 +8,7 @@ with open('HISTORY.md') as history_file:
 
 setuptools.setup(
     name='datacatalog-object-storage-processor',
-    version='0.1.0',
+    version='0.1.1',
     author='Marcelo Costa',
     author_email='mesmacosta@gmail.com',
     description='A package for performing Data Catalog operations on object storage solutions',
