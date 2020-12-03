@@ -8,7 +8,7 @@ with open('HISTORY.md') as history_file:
 
 setuptools.setup(
     name='datacatalog-object-storage-processor',
-    version='0.1.1',
+    version='0.1.2',
     author='Marcelo Costa',
     author_email='mesmacosta@gmail.com',
     description='A package for performing Data Catalog operations on object storage solutions',
@@ -22,7 +22,7 @@ setuptools.setup(
     },
     include_package_data=True,
     install_requires=(
-        'google-cloud-datacatalog',
+        'google-cloud-datacatalog>=1,<2',
         'google-cloud-storage',
         'pandas',
     ),
